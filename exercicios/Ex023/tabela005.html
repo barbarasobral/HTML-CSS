@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>F</td>
+            <td>13</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Débora</td>
+            <td>F</td>
+            <td>50</td>
+            <td>Pintora</td>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Gamer</td>
+        </tr>
+        <tr>
+            <td>Juvenal</td>
+            <td>M</td>
+            <td>84</td>
+            <td>Aposentado</td>
+        </tr>
+        <tr>
+            <td>Thaís</td>
+            <td>F</td>
+            <td>36</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Gabriel</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Analista</td>
+        </tr>
+    </table>
+</body>
+</html>
